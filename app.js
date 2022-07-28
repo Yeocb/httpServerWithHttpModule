@@ -53,7 +53,7 @@ const httpRequestListener = (request,response) => {
         })
  }
  
-/*  else if(method === 'POST') {
+ else if(method === 'POST') {
   if(url === '/posts'){
     let body = '';
     request.on('data',(data) => {body += data;})
@@ -71,7 +71,7 @@ const httpRequestListener = (request,response) => {
         response.end(JSON.stringify({message : "postCreated"}))
       })
 }
-} */
+}
 
 
 }
